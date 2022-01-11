@@ -1,20 +1,21 @@
-:root
-{--primary-text-color: #757575;
---title-text-color: #212121;
---accent-color:#2196F3;
---additional-color:#FFFFFF;
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --additional-color: #ffffff;
 }
 
 .page {
   background-color: #ffffff;
-  color: var {var(--primary-text-color)} ;
+  color: var(--primary-text-color);
 }
+
 /*logo */
 
 .logo {
-  color:var(--accent-color);
+  color: var(--accent-color);
 }
-.logo > span {
+.logo-black {
   color: #000000;
 }
 /* загальні*/
@@ -24,30 +25,39 @@ ul {
 a {
   text-decoration: none;
 }
-/* site-nav*/
-.site-nav .link {
+.header-link {
   color: var(--title-text-color);
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color)}
-
-.site-nav .link.current {color: var(--accent-color)}
-
-/* section hero*/
-.hero .hero-title {
-  color:var(--additional-color);
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
 }
 .hero {
-  background-color: #2f303a;
+  background-color: 2f303a;
 }
-.buttom {color: var(--additional-color);
-background-color: var(--accent-color);}
-
-.advantages { display: none;}
-.section-title { color: var(--title-text-color);}
-/* section advantages*/
-.advantages-list .title { color: var(--title-text-color);}
-
-/* section team*/
-.team-list .name {color: var(--title-text-color);}
+.hero-title {
+  color: var(--additional-color);
+}
+.advantages-title {
+  display: none;
+}
+.advantages-title,
+.works-title,
+.team-title {
+  color: var(--title-text-color);
+}
+.advantages-subtitle {
+  color: var(--title-text-color);
+}
+.team-name {
+  color: var(--title-text-color);
+}
+.footer {
+  background-color: 2f303a;
+}
+.logo-white {
+  color: var(--additional-color);
+}
+.footer-link {
+  color: var(--additional-color);
+}
