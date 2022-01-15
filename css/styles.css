@@ -87,7 +87,7 @@ a {
   text-transform: uppercase;
   color: var(--additional-color);
 }
-.hero-buttom {
+.hero-button {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -102,8 +102,8 @@ a {
 
   cursor: pointer;
 }
-.hero-buttom:hover,
-.hero-buttom:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #188ce8;
 }
 
